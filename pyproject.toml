@@ -8,7 +8,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.9.6,<3.9.7 || >3.9.7,<4.0.0"
 streamlit = "^1.32.2"
-
+langchain = "^0.1.12"
+pypdf = "^4.1.0"
+langchain-openai = "^0.0.8"
+faiss-cpu = "^1.8.0"
 
 [build-system]
 requires = ["poetry-core"]

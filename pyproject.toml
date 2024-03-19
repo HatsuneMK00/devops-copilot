@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "devops-copilot"
+version = "0.1.0"
+description = ""
+authors = ["makise <10175101106@stu.ecnu.edu.cn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9.6,<3.9.7 || >3.9.7,<4.0.0"
+streamlit = "^1.32.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

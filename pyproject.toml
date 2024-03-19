@@ -11,6 +11,7 @@ streamlit = "^1.32.2"
 langchain = "^0.1.12"
 pypdf = "^4.1.0"
 langchain-openai = "^0.0.8"
+langchainhub = "^0.1.15"
 faiss-cpu = "^1.8.0"
 
 [build-system]
